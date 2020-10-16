@@ -1,0 +1,19 @@
+{
+    "name": "dengfei/trois",
+    "description": "test composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "dengfei",
+            "email": "578796009@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Trois\\Library\\":"src/Trois/Library"
+        }
+    }
+}
